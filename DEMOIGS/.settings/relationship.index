@@ -9,6 +9,10 @@
     "version" : "Latest",
     "type" : "property"
   }, {
+    "id" : "_kNkNoMudEeuDZaNoO4SvBg",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
     "id" : "DataOperation",
     "version" : "Latest",
     "type" : "routine"
@@ -48,6 +52,10 @@
     "id" : "TalendStringUtil",
     "version" : "Latest",
     "type" : "routine"
+  }, {
+    "id" : "_2XMXYMubEeuDZaNoO4SvBg - CountryRegion",
+    "version" : "Latest",
+    "type" : "schema"
   } ]
 }, {
   "baseItem" : {
