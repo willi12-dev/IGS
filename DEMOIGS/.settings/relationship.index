@@ -60,6 +60,10 @@
     "type" : "job"
   },
   "relatedItems" : [ {
+    "id" : "_3ta_IMvKEeu7b7myy5rHYQ",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
     "id" : "DataOperation",
     "version" : "Latest",
     "type" : "routine"
@@ -99,6 +103,10 @@
     "id" : "TalendStringUtil",
     "version" : "Latest",
     "type" : "routine"
+  }, {
+    "id" : "_3ta_IMvKEeu7b7myy5rHYQ - ProductCategory",
+    "version" : "Latest",
+    "type" : "schema"
   } ]
 }, {
   "baseItem" : {
