@@ -53,7 +53,11 @@
     "version" : "Latest",
     "type" : "routine"
   }, {
-    "id" : "_2XMXYMubEeuDZaNoO4SvBg - CountryRegion",
+    "id" : "_2XMXYMubEeuDZaNoO4SvBg - Vendor",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_kNkNoMudEeuDZaNoO4SvBg - Vendor",
     "version" : "Latest",
     "type" : "schema"
   } ]
