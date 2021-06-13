@@ -16,6 +16,7 @@
     <module>jobs/process/bestellwesen_0.1</module>
     <module>jobs/process/bestellwesenadvanced_0.1</module>
     <module>jobs/process/copy_of_bestellwesenadvanced_0.1</module>
+    <module>jobs/process/bestellwesen_check_0.1</module>
   </modules>
   <properties>
     <signer.version>7.3.1</signer.version>
