@@ -343,9 +343,5 @@
     "id" : "_3ta_IMvKEeu7b7myy5rHYQ - PurchaseOrderHeader",
     "version" : "Latest",
     "type" : "schema"
-  }, {
-    "id" : "_3ta_IMvKEeu7b7myy5rHYQ - Vendor",
-    "version" : "Latest",
-    "type" : "schema"
   } ]
 } ]
