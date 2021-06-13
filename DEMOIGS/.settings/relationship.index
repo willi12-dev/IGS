@@ -355,10 +355,6 @@
     "version" : "Latest",
     "type" : "property"
   }, {
-    "id" : "_kNkNoMudEeuDZaNoO4SvBg",
-    "version" : "Latest",
-    "type" : "property"
-  }, {
     "id" : "DataOperation",
     "version" : "Latest",
     "type" : "routine"
@@ -398,17 +394,5 @@
     "id" : "TalendStringUtil",
     "version" : "Latest",
     "type" : "routine"
-  }, {
-    "id" : "_3ta_IMvKEeu7b7myy5rHYQ - PurchaseOrderHeader",
-    "version" : "Latest",
-    "type" : "schema"
-  }, {
-    "id" : "_3ta_IMvKEeu7b7myy5rHYQ - Vendor",
-    "version" : "Latest",
-    "type" : "schema"
-  }, {
-    "id" : "_kNkNoMudEeuDZaNoO4SvBg - Vendor",
-    "version" : "Latest",
-    "type" : "schema"
   } ]
 } ]
