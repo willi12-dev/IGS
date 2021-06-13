@@ -42,7 +42,7 @@
     <elementParameter field="TEXT" name="PROPERTIES_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="USER_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="enc:system.encryption.key.v1:tJdzhvrBp1XzaxYGLmUD2hJI36azYseKtOFBXC6G"/>
+    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="enc:system.encryption.key.v1:xy1zp1BUfXkwlNOJzveGcutTJkZv6/21xPzpq2KV"/>
     <elementParameter field="FILE" name="DBFILE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="DBTABLE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="QUERY_CONDITION_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
@@ -77,7 +77,7 @@
     <elementParameter field="TEXT" name="PROPERTIES" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="USER" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:yKHUCuZ7AGMphdnl7/vtlZBcgMQr2zWW3+ISpJ39"/>
+    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:Zoh4weBtsCRg+aKLaMeVMqlPDvOerzcPEGXaxPRz"/>
     <elementParameter field="FILE" name="DBFILE" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="TABLE_STATS" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="TABLE_LOGS" show="false" value="&quot;&quot;"/>
@@ -120,7 +120,7 @@
     <elementParameter field="TEXT" name="DB_SCHEMA" value="&quot;dbo&quot;"/>
     <elementParameter field="TEXT" name="DBNAME" value="&quot;AdventureWorks2019&quot;"/>
     <elementParameter field="TEXT" name="USER" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:JUtBkgXLff76wJj632uTGL3E9ObYWQG3Cu8VnpkB"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:gdk43yF2f1g6Q/Q4shT1EUSPkBXb+wyPT8FpsTtW"/>
     <elementParameter field="TECHNICAL" name="SCHEMA:SCHEMA_TYPE" show="false" value="REPOSITORY"/>
     <elementParameter field="TECHNICAL" name="SCHEMA:REPOSITORY_SCHEMA_TYPE" show="false" value="_3ta_IMvKEeu7b7myy5rHYQ - PurchaseOrderHeader"/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;PurchaseOrderHeader&quot;"/>
@@ -227,8 +227,8 @@
       <column comment="" key="false" length="50" name="Name" nullable="false" pattern="" precision="0" sourceType="NAME" type="id_String" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
-      <column comment="" key="false" length="-1" name="SumOrder" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="-1" name="CoutnOrders" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="SumOrder" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="CoutnOrders" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_Integer" usefulColumn="true"/>
       <column comment="" defaultValue="'(getdate())'" key="false" length="23" name="OrderDate" nullable="false" pattern="&quot;dd-MM-yyyy&quot;" precision="3" sourceType="DATETIME" type="id_Date" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
@@ -238,8 +238,8 @@
       <varTables minimized="true" name="Var" sizeState="INTERMEDIATE"/>
       <outputTables name="VendorOrders" sizeState="INTERMEDIATE">
         <mapperTableEntries expression="Vendor.Name " name="Name" type="id_String"/>
-        <mapperTableEntries expression="PurchaseOrderDetails.SumOrder " name="SumOrder" nullable="true" type="id_String"/>
-        <mapperTableEntries expression="PurchaseOrderDetails.CoutnOrders " name="CoutnOrders" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="PurchaseOrderDetails.SumOrder " name="SumOrder" nullable="true" type="id_Integer"/>
+        <mapperTableEntries expression="PurchaseOrderDetails.CoutnOrders " name="CoutnOrders" nullable="true" type="id_Integer"/>
         <mapperTableEntries expression="PruchaseOrder.OrderDate " name="OrderDate" type="id_Date"/>
       </outputTables>
       <inputTables lookupMode="LOAD_ONCE" matchingMode="UNIQUE_MATCH" name="PruchaseOrder" sizeState="INTERMEDIATE">
@@ -287,7 +287,7 @@
     <elementParameter field="TEXT" name="DB_SCHEMA" value="&quot;dbo&quot;"/>
     <elementParameter field="TEXT" name="DBNAME" value="&quot;AdventureWorks2019&quot;"/>
     <elementParameter field="TEXT" name="USER" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:pyBCFtfVRevEMyO3ICnL6LlzlrYm+0vydK0zDr7E"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:mA96btuwvyXGKnIRI5OCLdap/STb9ceUqyHvRI2t"/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;PurchaseOrderDetail&quot;"/>
     <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" show="false" value=""/>
@@ -406,7 +406,7 @@
     <elementParameter field="TEXT" name="DB_SCHEMA" value="&quot;dbo&quot;"/>
     <elementParameter field="TEXT" name="DBNAME" value="&quot;AdventureWorks2019&quot;"/>
     <elementParameter field="TEXT" name="USER" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:nsUqw4xldbAnewWvb4UlLsNn1123JbQ490Lg7QXa"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:ePz7P7QC/6qOBJUkFnlxQezGWE3IZfEwEvZWgIOV"/>
     <elementParameter field="TECHNICAL" name="SCHEMA:SCHEMA_TYPE" show="false" value="REPOSITORY"/>
     <elementParameter field="TECHNICAL" name="SCHEMA:REPOSITORY_SCHEMA_TYPE" show="false" value="_3ta_IMvKEeu7b7myy5rHYQ - Vendor"/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;Vendor&quot;"/>
@@ -500,8 +500,8 @@
       <column comment="" key="false" length="50" name="Name" nullable="false" pattern="" precision="0" sourceType="NAME" type="id_String" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
-      <column comment="" key="false" length="-1" name="SumOrder" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="-1" name="CoutnOrders" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="SumOrder" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="CoutnOrders" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_Integer" usefulColumn="true"/>
       <column comment="" defaultValue="'(getdate())'" key="false" length="23" name="OrderDate" nullable="false" pattern="&quot;dd-MM-yyyy&quot;" precision="3" sourceType="DATETIME" type="id_Date" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
@@ -532,13 +532,13 @@
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
   </subjob>
-<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_d442beca-9d6e-402b-9a95-db48e73454a6"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>DHbNAmiMRcYj+tewQc6hmfWkZOtYMMqH226rZFGT2Tj/VIXyJogshvSvCyqVWKNBO9xZ/ybzLmdn&#13;
-DYcLlY0uJQ==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_033acccf-d5bd-420c-b505-c001c7df9c66"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>onlOvuiy5JIrBseFiUs/yBMIH0hlfxrU1SHWZTSGDdkuX4NFwdQprt3egIonef3W0t/9biA2R/Vw&#13;
-Vu3U0PJ7Nw==</DigestValue></Reference></SignedInfo><SignatureValue>jhwUMlbXQp6/3SXcJted1456D6SGONVPSvHFrOkqnrOmZIlaKvzf8os7j5X/dQm6ejuayvcuQacZ&#13;
-hrJIIRC08coHPe6EycVH50POnm7HcO0FKP1YWejujyhXAtmafXk13DAjrWM5nB6TUezqUR8uopJC&#13;
-tN+Of1NBb4VcJpcU4akRYX7H7FjwCVyUq7LIzoGJ5Y/JjtnZulkdO02dlgiKj1co0gwPXccWXKOj&#13;
-9uV/c7HOOW9HjB5zhVBtUv0iOQFaNAFri6mAi65PhUC0+mnTQEhHlgI1aPa6Aill+kPApH2Q6sRK&#13;
-II7K/cmts9WBACEGwBxl8uVZbsOOWTMRwIHbJA==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_aabfbf7e-f0d3-4ca4-8091-8fb1c422446b"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>4a39xvHcbLHWJfA/juF9WraQ4uUSSZFAozhs2VDRHq38nFaH2W8d8mOEe4FGt2UW2ZM3UgM8IUes&#13;
+rm5l61xO1g==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_31fa722f-2a4d-42c7-bb27-9bb202ff1c77"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>c/mmFs50kCHgMHAkpc06GN7Hr7oGuEqWHRRpMomy6QY25BLDi4Kfc7D3yfscsZ+pd+IwMSB8KtSX&#13;
+WaBP8x8ftA==</DigestValue></Reference></SignedInfo><SignatureValue>C7Z02sK9JgQIE2BBSCD56ptuglrmjKH5tIAITA8GOpn2w2oTrpM2zMczrmWHwJ3ZW8CUHeD6g0as&#13;
+6sdL9dHWmj6q2uHRWOVuJYeEcMJYAvLX2zNw1UeE15TkPXpCNGq0RlK4M45jfS1uR3hgkmotbNrB&#13;
+7E8DeGQ9luc8iTks9sovasSvsSld1zCv1et1Khzz/ekQ8p2kuDDE9sT/ceKx3nFSB3zxuYFBz6Zz&#13;
+5IYCep/4jZ+U+VMq5mN7YvXevRJMy96DoWYjM+5oVNX/ob9X1HJ6cHyDDOBpTuqpQDIuvdjgMSBn&#13;
+HHFUFzNxfDlFMUkrvGHUNlfTMvXXoigxwhwy4A==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
 DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
 VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
 QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
@@ -560,4 +560,4 @@ hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13
 WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
 gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
 qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
-qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_033acccf-d5bd-420c-b505-c001c7df9c66" Target="#_d442beca-9d6e-402b-9a95-db48e73454a6"><Timestamp>2021-06-13 11:37:38</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_31fa722f-2a4d-42c7-bb27-9bb202ff1c77" Target="#_aabfbf7e-f0d3-4ca4-8091-8fb1c422446b"><Timestamp>2021-06-13 11:38:25</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
