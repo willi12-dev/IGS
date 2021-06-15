@@ -773,11 +773,11 @@
     "type" : "job"
   },
   "relatedItems" : [ {
-    "id" : "_3ta_IMvKEeu7b7myy5rHYQ",
+    "id" : "_2XMXYMubEeuDZaNoO4SvBg",
     "version" : "Latest",
     "type" : "property"
   }, {
-    "id" : "_4kTzMM3gEeuMn_W2Y76ccw",
+    "id" : "_3ta_IMvKEeu7b7myy5rHYQ",
     "version" : "Latest",
     "type" : "property"
   }, {
@@ -845,7 +845,7 @@
     "version" : "Latest",
     "type" : "routine"
   }, {
-    "id" : "_3ta_IMvKEeu7b7myy5rHYQ - Address",
+    "id" : "_2XMXYMubEeuDZaNoO4SvBg - Person",
     "version" : "Latest",
     "type" : "schema"
   }, {
@@ -858,14 +858,6 @@
     "type" : "schema"
   }, {
     "id" : "_3ta_IMvKEeu7b7myy5rHYQ - BusinessEntityAddress",
-    "version" : "Latest",
-    "type" : "schema"
-  }, {
-    "id" : "_3ta_IMvKEeu7b7myy5rHYQ - Vendor",
-    "version" : "Latest",
-    "type" : "schema"
-  }, {
-    "id" : "_4kTzMM3gEeuMn_W2Y76ccw - metadata",
     "version" : "Latest",
     "type" : "schema"
   }, {
