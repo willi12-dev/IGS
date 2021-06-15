@@ -686,5 +686,9 @@
     "id" : "_4kTzMM3gEeuMn_W2Y76ccw - metadata",
     "version" : "Latest",
     "type" : "schema"
+  }, {
+    "id" : "_kNkNoMudEeuDZaNoO4SvBg - IGAKIS_Adresse",
+    "version" : "Latest",
+    "type" : "schema"
   } ]
 } ]
