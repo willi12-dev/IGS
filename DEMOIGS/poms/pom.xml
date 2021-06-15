@@ -23,8 +23,8 @@
     <module>jobs/process/igakis_nnp_0.1</module>
     <module>jobs/process/sva_bodensee_0.1</module>
     <module>jobs/process/igakis_np_0.1</module>
-    <module>jobs/process/igakis_natp_0.1</module>
     <module>jobs/process/igakis_nicht_natuerliche_personen_0.1</module>
+    <module>jobs/process/OLD/igakis_natp_0.1</module>
   </modules>
   <properties>
     <signer.version>7.3.1</signer.version>
