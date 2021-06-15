@@ -414,10 +414,6 @@
     "id" : "_3ta_IMvKEeu7b7myy5rHYQ - Vendor",
     "version" : "Latest",
     "type" : "schema"
-  }, {
-    "id" : "_kNkNoMudEeuDZaNoO4SvBg - VendorOrder",
-    "version" : "Latest",
-    "type" : "schema"
   } ]
 }, {
   "baseItem" : {
