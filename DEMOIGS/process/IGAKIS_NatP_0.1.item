@@ -42,7 +42,7 @@
     <elementParameter field="TEXT" name="PROPERTIES_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="USER_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="enc:system.encryption.key.v1:jpMOkS5ThWQ1qLHocTgfs0w/Inm0NVgaXbQpgMRB"/>
+    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="enc:system.encryption.key.v1:DYjM49kUEbv4jrByvPTgPWL0oPFsbn+sxNI0QNnC"/>
     <elementParameter field="FILE" name="DBFILE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="DBTABLE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="QUERY_CONDITION_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
@@ -77,7 +77,7 @@
     <elementParameter field="TEXT" name="PROPERTIES" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="USER" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:/lPVPakQadjgLm3jOB99ky2wphak6NquYBsKAJaM"/>
+    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:O+3iy+789FZMAKvivEF6q6m0pFJ0SfTLdjtOySTa"/>
     <elementParameter field="FILE" name="DBFILE" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="TABLE_STATS" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="TABLE_LOGS" show="false" value="&quot;&quot;"/>
@@ -125,7 +125,7 @@
     <elementParameter field="TEXT" name="DB_SCHEMA" value="&quot;dbo&quot;"/>
     <elementParameter field="TEXT" name="DBNAME" value="&quot;AdventureWorks2019&quot;"/>
     <elementParameter field="TEXT" name="USER" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:RbewILmgi+MYBHlyK4QAENxGWZuz0SZ1Bc24ON2v"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:zuwRN2MOvHp1bXq73hRpd6SU1cuA44l0uCw3NH5D"/>
     <elementParameter field="TECHNICAL" name="SCHEMA:SCHEMA_TYPE" show="false" value="REPOSITORY"/>
     <elementParameter field="TECHNICAL" name="SCHEMA:REPOSITORY_SCHEMA_TYPE" show="false" value="_3ta_IMvKEeu7b7myy5rHYQ - Vendor"/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;Vendor&quot;"/>
@@ -194,7 +194,7 @@
     <elementParameter field="EXTERNAL" name="MAP" value=""/>
     <elementParameter field="CLOSED_LIST" name="LINK_STYLE" value="AUTO"/>
     <elementParameter field="DIRECTORY" name="TEMPORARY_DATA_DIRECTORY" value=""/>
-    <elementParameter field="IMAGE" name="PREVIEW" value="_uZhhkM3dEeuMn_W2Y76ccw-tMap_1-PREVIEW.bmp"/>
+    <elementParameter field="IMAGE" name="PREVIEW" value="_uCyd8M4cEeufUpXHTS02rA-tMap_1-PREVIEW.bmp"/>
     <elementParameter field="CHECK" name="DIE_ON_ERROR" show="false" value="true"/>
     <elementParameter field="CHECK" name="LKUP_PARALLELIZE" show="false" value="false"/>
     <elementParameter field="TEXT" name="LEVENSHTEIN" show="false" value="0"/>
@@ -301,7 +301,7 @@
     <elementParameter field="TEXT" name="DB_SCHEMA" value="&quot;dbo&quot;"/>
     <elementParameter field="TEXT" name="DBNAME" value="&quot;AdventureWorks2019&quot;"/>
     <elementParameter field="TEXT" name="USER" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:JH2pFl9g/bhZGpkSGXBGiDLh2Egyh5Pr5MFjdSEd"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:uuneyw2Lm68eVfvzWEroyzgGLDls9dfYlbaPXqMH"/>
     <elementParameter field="TECHNICAL" name="SCHEMA:SCHEMA_TYPE" show="false" value="REPOSITORY"/>
     <elementParameter field="TECHNICAL" name="SCHEMA:REPOSITORY_SCHEMA_TYPE" show="false" value="_3ta_IMvKEeu7b7myy5rHYQ - BusinessEntity"/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;BusinessEntity&quot;"/>
@@ -353,7 +353,7 @@
     <elementParameter field="TEXT" name="DB_SCHEMA" value="&quot;dbo&quot;"/>
     <elementParameter field="TEXT" name="DBNAME" value="&quot;AdventureWorks2019&quot;"/>
     <elementParameter field="TEXT" name="USER" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:7ZPT1tc5clCixbcqfcKxA/AM0tNJ8kFrQgwppGkx"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:o52RyjYnxNxEtbym37K/WBxeTjqxLGlIyLrovI5i"/>
     <elementParameter field="TECHNICAL" name="SCHEMA:SCHEMA_TYPE" show="false" value="REPOSITORY"/>
     <elementParameter field="TECHNICAL" name="SCHEMA:REPOSITORY_SCHEMA_TYPE" show="false" value="_3ta_IMvKEeu7b7myy5rHYQ - BusinessEntityAddress"/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;BusinessEntityAddress&quot;"/>
@@ -415,7 +415,7 @@
     <elementParameter field="TEXT" name="DB_SCHEMA" value="&quot;dbo&quot;"/>
     <elementParameter field="TEXT" name="DBNAME" value="&quot;AdventureWorks2019&quot;"/>
     <elementParameter field="TEXT" name="USER" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:JoeGXSbY5RnuddeO1Gp1IZeKy/WTi+ymAET0hWLt"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:NUa5yUjpb2JwIzQDge6MVn9scuvuZNg5vDGSsiDi"/>
     <elementParameter field="TECHNICAL" name="SCHEMA:SCHEMA_TYPE" show="false" value="REPOSITORY"/>
     <elementParameter field="TECHNICAL" name="SCHEMA:REPOSITORY_SCHEMA_TYPE" show="false" value="_3ta_IMvKEeu7b7myy5rHYQ - Address"/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;Address&quot;"/>
@@ -497,7 +497,7 @@
     <elementParameter field="TEXT" name="DB_SCHEMA" value="&quot;dbo&quot;"/>
     <elementParameter field="TEXT" name="DBNAME" value="&quot;AdventureWorks2019&quot;"/>
     <elementParameter field="TEXT" name="USER" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:6EG1891NHObcAEH5s7/VdT00MK0U0Rs304maGI0U"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:KaFVugBSPnSJJbEqCm7mBhVl+YPREIlbM4OUnJZn"/>
     <elementParameter field="TECHNICAL" name="SCHEMA:SCHEMA_TYPE" show="false" value="REPOSITORY"/>
     <elementParameter field="TECHNICAL" name="SCHEMA:REPOSITORY_SCHEMA_TYPE" show="false" value="_3ta_IMvKEeu7b7myy5rHYQ - AddressType"/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;AddressType&quot;"/>
@@ -546,7 +546,7 @@
     <elementParameter field="EXTERNAL" name="MAP" value=""/>
     <elementParameter field="CLOSED_LIST" name="LINK_STYLE" value="AUTO"/>
     <elementParameter field="DIRECTORY" name="TEMPORARY_DATA_DIRECTORY" value=""/>
-    <elementParameter field="IMAGE" name="PREVIEW" value="_uZhhkM3dEeuMn_W2Y76ccw-tMap_2-PREVIEW.bmp"/>
+    <elementParameter field="IMAGE" name="PREVIEW" value="_uCyd8M4cEeufUpXHTS02rA-tMap_2-PREVIEW.bmp"/>
     <elementParameter field="CHECK" name="DIE_ON_ERROR" show="false" value="true"/>
     <elementParameter field="CHECK" name="LKUP_PARALLELIZE" show="false" value="false"/>
     <elementParameter field="TEXT" name="LEVENSHTEIN" show="false" value="0"/>
@@ -733,7 +733,7 @@
       </column>
     </metadata>
     <nodeData xsi:type="TalendMapper:MapperData">
-      <uiProperties shellMaximized="true"/>
+      <uiProperties/>
       <varTables minimized="true" name="Var" sizeState="INTERMEDIATE"/>
       <outputTables activateColumnNameFilter="true" columnNameFilter="" minimized="true" name="IGAKIS" sizeState="INTERMEDIATE">
         <mapperTableEntries expression="NNP_Basis.BusinessEntityID " name="FremdNr" type="id_Integer"/>
@@ -827,7 +827,7 @@
     <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" show="false" value="_4kTzMM3gEeuMn_W2Y76ccw"/>
     <elementParameter field="CHECK" name="VERSION_2007" value="false"/>
     <elementParameter field="FILE" name="FILENAME" value="&quot;C:/Daten/ROL.xls&quot;"/>
-    <elementParameter field="PASSWORD" name="PASSWORD" show="false" value="enc:system.encryption.key.v1:A03t5BjM5z2dCkZUAqGo6OxBAoUShi7P9uRk7QJn"/>
+    <elementParameter field="PASSWORD" name="PASSWORD" show="false" value="enc:system.encryption.key.v1:yT5Q67kZC0AKTWzvCKdx96vaHT7PnOdSLBrrVIgr"/>
     <elementParameter field="CHECK" name="ALL_SHEETS" value="true"/>
     <elementParameter field="TABLE" name="SHEETLIST" show="false">
       <elementValue elementRef="SHEETNAME" value="&quot;Tabelle1&quot;"/>
@@ -904,9 +904,9 @@
     <elementParameter field="TEXT" name="DBNAME" value="&quot;DemoETL&quot;"/>
     <elementParameter field="TEXT" name="TYPE" show="false" value="MSSQL"/>
     <elementParameter field="TEXT" name="USER" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:L+89EKtlP0Q58HKmMD8o1pqf34ZAuLrqpPpwHQ2f"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:wdijg8aBh+pxsBOukUmp3ra/WfyAmzgZGJUBhi8p"/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;IGAKI_Person&quot;"/>
-    <elementParameter field="CLOSED_LIST" name="TABLE_ACTION" value="TRUNCATE"/>
+    <elementParameter field="CLOSED_LIST" name="TABLE_ACTION" value="NONE"/>
     <elementParameter field="CHECK" name="IDENTITY_INSERT" value="false"/>
     <elementParameter field="CLOSED_LIST" name="DATA_ACTION" value="INSERT"/>
     <elementParameter field="LABEL" name="NOTE" show="false" value="NOTE: batch size must be less than or equal to total number of parameter markers divided by number of columns"/>
@@ -1332,7 +1332,7 @@
       <elementValue elementRef="IS_AUTO_SIZE" value="false"/>
     </elementParameter>
     <elementParameter field="CHECK" name="PROTECT_FILE" show="false" value="false"/>
-    <elementParameter field="PASSWORD" name="PASSWORD" show="false" value="enc:system.encryption.key.v1:bj8z92FpP57SuIfIi0OHNqo+7u17OB7UYUElTV/a"/>
+    <elementParameter field="PASSWORD" name="PASSWORD" show="false" value="enc:system.encryption.key.v1:Y9lu+CYdczKUTQnb9IiSUUsdVjW449TGn0RkKsKO"/>
     <elementParameter field="CHECK" name="CREATE" value="true"/>
     <elementParameter field="CHECK" name="FLUSHONROW" show="false" value="false"/>
     <elementParameter field="TEXT" name="FLUSHONROW_NUM" show="false" value="100"/>
@@ -1371,7 +1371,7 @@
     <elementParameter field="TEXT" name="DBNAME" value="&quot;DemoETL&quot;"/>
     <elementParameter field="TEXT" name="TYPE" show="false" value="MSSQL"/>
     <elementParameter field="TEXT" name="USER" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:wy/mwIIJpn7R9rvezuc4HTBFZihLhS+yB1hQhFNq"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:56RTqFc0QAXeCCd2y92q2uEiid7Z3sSBve3MDPXu"/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;IGAKIS_Adresse&quot;"/>
     <elementParameter field="CLOSED_LIST" name="TABLE_ACTION" value="NONE"/>
     <elementParameter field="CHECK" name="IDENTITY_INSERT" value="false"/>
