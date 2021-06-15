@@ -28,7 +28,7 @@
     <talend.pigudf.groupid>org.example.demoigs.pigudf</talend.pigudf.groupid>
     <talend.routine.groupid>org.example.demoigs.code</talend.routine.groupid>
     <current.bundle.resources.dir>${basedir}/src/main/bundle-resources</current.bundle.resources.dir>
-    <talend.job.jvmargs>-Xms256M -Xmx1024M -Dfile.encoding=UTF-8</talend.job.jvmargs>
+    <talend.job.jvmargs>-Xms256M -Xmx1024M -Dfile.encoding=UTF-8 </talend.job.jvmargs>
     <talend.job.stat>true</talend.job.stat>
     <talend.job.context>Default</talend.job.context>
     <talend.job.date>${maven.build.timestamp}</talend.job.date>
@@ -36,8 +36,8 @@
     <talend.job.name>Load_ROL</talend.job.name>
     <talend.job.id>_NYmKMM3QEeuMn_W2Y76ccw</talend.job.id>
     <talend.project.id>0</talend.project.id>
-    <talend.job.folder></talend.job.folder>
     <talend.job.framework></talend.job.framework>
+    <talend.job.folder></talend.job.folder>
     <project.distribution-management.repository.url>${project.distributionManagement.repository.url}</project.distribution-management.repository.url>
     <talend.job.type>Standard</talend.job.type>
   </properties>
@@ -46,6 +46,11 @@
       <groupId>net.minidev</groupId>
       <artifactId>accessors-smart</artifactId>
       <version>1.1</version>
+    </dependency>
+    <dependency>
+      <groupId>org.talend.libraries</groupId>
+      <artifactId>antlr-runtime-3.5.2</artifactId>
+      <version>6.0.0</version>
     </dependency>
     <dependency>
       <groupId>org.ow2.asm</groupId>
@@ -116,6 +121,11 @@
       <groupId>org.talend.daikon</groupId>
       <artifactId>logging-event-layout</artifactId>
       <version>1.8.0</version>
+    </dependency>
+    <dependency>
+      <groupId>org.talend.libraries</groupId>
+      <artifactId>org.talend.dataquality.parser</artifactId>
+      <version>7.3.1</version>
     </dependency>
     <dependency>
       <groupId>org.slf4j</groupId>
