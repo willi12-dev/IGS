@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendProperties="http://www.talend.org/properties">
-  <TalendProperties:Project xmi:id="_0JRE8cqjEeuz_Zix5i1OnA" label="DemoIGS" description="Demo" language="java" technicalLabel="DEMOIGS" author="_0JRE8sqjEeuz_Zix5i1OnA" productVersion="Talend Cloud Data Integration-7.3.1.20200219_1130" url="{&quot;commitLogPattern&quot;:&quot;{0}&quot;,&quot;location&quot;:&quot;https://github.com/willi12-dev/IGS&quot;,&quot;settings&quot;:&quot;000&quot;,&quot;storage&quot;:&quot;git&quot;}" type="DI" itemsRelationVersion="1.3" bigData="false">
+  <TalendProperties:Project xmi:id="_0JRE8cqjEeuz_Zix5i1OnA" label="DemoIGS" description="Demo IGS" language="java" technicalLabel="DEMOIGS" author="_0JRE8sqjEeuz_Zix5i1OnA" productVersion="Talend Cloud Data Management Platform-7.3.1.20200219_1130" url="{&quot;commitLogPattern&quot;:&quot;{0}&quot;,&quot;location&quot;:&quot;https://github.com/willi12-dev/IGS&quot;,&quot;settings&quot;:&quot;000&quot;,&quot;storage&quot;:&quot;git&quot;}" type="DQ" itemsRelationVersion="1.3" bigData="false">
     <migrationTask xmi:id="_0aZ4QMqjEeuz_Zix5i1OnA" id="org.talend.repository.model.migration.CheckProductVersionMigrationTask" breaks="7.1.0" version="7.1.1"/>
   </TalendProperties:Project>
   <TalendProperties:User xmi:id="_0JRE8sqjEeuz_Zix5i1OnA" login="wilfrieddecker@eval12856.talend.com" firstName="Wilfried" lastName="Decker" type="DI"/>
+  <TalendProperties:User xmi:id="_IRpd083mEeufQNCL7ZlE-A" login="wilfrieddecker@eval12866.talend.com" firstName="wilfried" lastName="decker" type="DQ"/>
+  <TalendProperties:User xmi:id="_IRpd1M3mEeufQNCL7ZlE-A" login="wilfrieddecker@eval12866.talend.com" firstName="wilfried" lastName="decker" type="DQ"/>
 </xmi:XMI>
