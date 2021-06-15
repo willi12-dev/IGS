@@ -12,13 +12,13 @@
     <module>code/routines</module>
     <module>jobs/process/test_0.1</module>
     <module>jobs/process/copypaste_0.1</module>
-    <module>jobs/process/copypasteadvanced_0.1</module>
-    <module>jobs/process/bestellwesen_0.1</module>
-    <module>jobs/process/bestellwesenadvanced_0.1</module>
-    <module>jobs/process/copy_of_bestellwesenadvanced_0.1</module>
-    <module>jobs/process/bestellwesen_check_0.1</module>
     <module>jobs/process/copyproduct_0.1</module>
     <module>jobs/process/bestellung_denormalisiert_0.1</module>
+    <module>jobs/process/OLD/bestellwesen_check_0.1</module>
+    <module>jobs/process/OLD/bestellwesen_0.1</module>
+    <module>jobs/process/OLD/bestellwesenadvanced_0.1</module>
+    <module>jobs/process/OLD/copy_of_bestellwesenadvanced_0.1</module>
+    <module>jobs/process/OLD/copypasteadvanced_0.1</module>
   </modules>
   <properties>
     <signer.version>7.3.1</signer.version>
