@@ -21,6 +21,7 @@
     <module>jobs/process/OLD/copypaste_0.1</module>
     <module>jobs/process/load_rol_0.1</module>
     <module>jobs/process/igakis_nnp_0.1</module>
+    <module>jobs/process/sva_bodensee_0.1</module>
   </modules>
   <properties>
     <signer.version>7.3.1</signer.version>
