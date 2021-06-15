@@ -407,10 +407,6 @@
     "version" : "Latest",
     "type" : "routine"
   }, {
-    "id" : "_3ta_IMvKEeu7b7myy5rHYQ - ProductVendor",
-    "version" : "Latest",
-    "type" : "schema"
-  }, {
     "id" : "_3ta_IMvKEeu7b7myy5rHYQ - PurchaseOrderDetail",
     "version" : "Latest",
     "type" : "schema"
@@ -419,7 +415,7 @@
     "version" : "Latest",
     "type" : "schema"
   }, {
-    "id" : "_kNkNoMudEeuDZaNoO4SvBg - VendorOrder",
+    "id" : "_3ta_IMvKEeu7b7myy5rHYQ - Vendor",
     "version" : "Latest",
     "type" : "schema"
   } ]
